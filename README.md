@@ -22,7 +22,7 @@ Clone this repository. You will need `python`, `virtualenv`, and `virtualenvwrap
 `pip install flask_sqlalchemy`
 
 `pip install requests`   
-'pip install gunicorn'
+`pip install gunicorn`
 #### To Start Server:
 
 `gunicorn -b 0.0.0.0:5000 app:app`  
